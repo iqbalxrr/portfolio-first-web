@@ -81,7 +81,12 @@ nav a{
 
 }
 /* main section styles */
-
+main{
+    max-width:1140px ;
+    /* justify-content: center; */
+    margin: 0 auto;
+    
+}
 /* about section styles */
 .about{
     border-radius: 10px;
@@ -99,4 +104,12 @@ nav a{
     text-align: center;
     font-size: 18px;
     color: #757575;
+}
+.about-info-conteiner{
+    display: flex;
+    justify-content: space-between;
+
+}
+.about-info{
+  text-align: center;
 }
