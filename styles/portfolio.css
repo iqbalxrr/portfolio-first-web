@@ -87,6 +87,10 @@ main{
     margin: 0 auto;
     
 }
+main section{
+    margin-top: 130px;
+}
+
 /* about section styles */
 .about{
     border-radius: 10px;
@@ -112,4 +116,28 @@ main{
 }
 .about-info{
   text-align: center;
+}
+/* skills section styles */
+#what-i-do-section-discription{
+
+    padding: 30px 150px;
+    color: #757575;
+}
+
+.skill-section{
+    padding: 30px;
+    border-radius: 5px;
+    background: rgb(246, 235, 213);
+    box-shadow: 0 2px 5px 5px ;
+    
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+/* resume colom styles */
+.resume-colom-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
