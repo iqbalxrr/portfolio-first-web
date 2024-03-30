@@ -160,6 +160,10 @@ footer{
 }
 .footer-colum{
     width: 50%;
+   
+}
+.social-link{
+    margin-right: 25px;
 }
 .contact input, textarea{
     display: block;
